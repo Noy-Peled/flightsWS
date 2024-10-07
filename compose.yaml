@@ -1,0 +1,14 @@
+
+# compose with env and ports for the applicatoin
+services:
+  server:
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080
+
+
+
+
